@@ -1,4 +1,4 @@
-# 🧠 Neuromotor (Advanced Beta)
+# Neuromotor (Advanced Beta)
 
 > **Production-grade Brain-to-Image Neural Decoding**
 > A scaled architecture for training on the massive Natural Scenes Dataset (NSD) using multi-GPU clusters.
@@ -7,7 +7,7 @@ This repository is an advanced, cluster-ready evolution of the Neuromotor Proof-
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 1. **Multi-GPU Distributed Training**: Powered by HuggingFace `Accelerate`. Seamlessly scales from 1 GPU to a massive cluster (e.g., 8x NVIDIA H100s) with zero code changes.
 2. **Deep Residual Architecture**: A custom `DeepResidualMapper` capable of handling the extreme variance of the 73,000 NSD scans without vanishing gradients.
@@ -16,7 +16,7 @@ This repository is an advanced, cluster-ready evolution of the Neuromotor Proof-
 
 ---
 
-## 🛠 Installation
+## Installation
 
 Clone this repository onto your cloud GPU instance (e.g., RunPod, AWS EC2, or Lambda Labs):
 
@@ -34,7 +34,7 @@ accelerate config
 
 ---
 
-## 📊 Dataset Preparation (NSD)
+## Dataset Preparation (NSD)
 
 You must explicitly sign a data-use agreement to access the Natural Scenes Dataset.
 1. Apply for access at [naturalscenesdataset.org](http://naturalscenesdataset.org/).
@@ -43,7 +43,7 @@ You must explicitly sign a data-use agreement to access the Natural Scenes Datas
 
 ---
 
-## 🏃‍♂️ Training on the Cluster
+## Training on the Cluster
 
 Once your data is ready, launch the distributed training run:
 
